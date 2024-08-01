@@ -16,7 +16,7 @@ To run this program, simply clone the repo and run `server.js` with `node`.
 node server.js
 ~~~
 
-By default, this server will listen to `localhost:11435/api/completion`. The `/api/completion` route is the only supported route. 
+By default, this server will listen to `localhost:11435/v1/api/completion`. The `/v1/api/completion` route is the only supported route. 
 
 
 
