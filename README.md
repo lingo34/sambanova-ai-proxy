@@ -16,6 +16,8 @@ To run this program, simply clone the repo and run `server.js` with `node`.
 node server.js
 ~~~
 
+By default, this server will listen to `localhost:11435/api/completion`. The `/api/completion` route is the only supported route. 
+
 
 
 This program also allows you to override the model name received by the server and replace it with the one specified in the server program. This is because some program that calls OpenAI API do not allow you to change the model name, which stops us from testing these open-source models. 
