@@ -18,6 +18,8 @@ node server.js
 
 This server will default listen to `localhost:11435/v1/api/completion`. The `/v1/api/completion` is the only supported route. 
 
+To use the server in your applications to replace OpenAI API or Ollama API, replace the base_url with `http://localhost:11435/v1/`. It will be a drop-in replacement.
+
 
 
 This program also allows you to override the model name received by the server and replace it with the one specified in the server program. This feature is helpful because some programs that use OpenAI API do not allow you to change the model name, which stops us from testing these open-source models. 
