@@ -26,3 +26,10 @@ This program also allows you to override the model name received by the server a
 
 To achieve this, you can modify the `MODEL_OVERRIDE` parameter at the top of the `server.js`. If `MODEL_OVERRIDE` contains any value, when proxying the request, the server will replace the original value in the model parameter with the value of `MODEL_OVERRIDE`.
 
+
+## Run this on Cloudflare Worker
+
+Copy and paste the content of `cf-worker.js` into your cloudflare worker and deploy. The Sambanova AI Proxy Server will be on your cloudflare worker as a serverless endpoint!
+
+
+
