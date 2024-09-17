@@ -2,6 +2,8 @@
 
 [中文](https://github.com/lingo34/sambanova-ai-proxy/blob/main/README.cn.md)
 
+❌ (2024.09.17) **This project no longer works**. Sambanova AI changed their UI and now requires user login for the chat interface, and I havn't added the feature to use cookies.
+
 >  ⚠️ All content in this repository is for experimental purposes
 
 >  ⚠️ In using this program, you agree to Sambanova [Terms of Use](https://sambanova.ai/model-demo-tou) and [Privacy Policy](https://sambanova.ai/privacy-policy), which allows them to use anything you send to their server according to these policies. Therefore, you should not use it to process any sensitive information.
